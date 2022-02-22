@@ -1,16 +1,23 @@
 .contenedor {
   border: 5px solid gray;
   display: grid;
-  grid-template-rows: 150px 150px 150px;
+  grid-template-rows: 150px 150px;
   grid-auto-columns: 150px;
   grid-auto-flow: column;
   gap: 20px;
+  align-content: center;
   justify-content: center;
+  height: 600px;
 }
-.item {
+.item-1,
+.item-2,
+.item-3,
+.item-4,
+.item-5,
+.item-6 {
   display: grid;
   border: 5px solid whitesmoke;
-  background-color: rgb(171, 235, 43);
+  background-color: yellowgreen;
   color: black;
   font-size: 4.2rem;
   align-items: end;
